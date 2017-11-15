@@ -29,7 +29,7 @@
     <string name="title_activity_recurring_expense_edit">Wiederkehrende Ausgabe bearbeiten</string>
     <string name="title_activity_monthly_income_edit">Wiederkehrende Einnahme bearbeiten</string>
     <string name="title_activity_settings">Einstellungen</string>
-    <string name="title_activity_welcome">EasyBudget</string>
+    <string name="title_activity_welcome">Simple Budget</string>
     <string name="title_activity_premium">Premium</string>
     <string name="title_activity_monthly_report">Monatliche Zusammenfassung</string>
     <string name="cancel">Abbrechen</string>

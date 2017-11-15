@@ -29,7 +29,7 @@
     <string name="title_activity_recurring_expense_edit">Modifica l’uscita ricorrente</string>
     <string name="title_activity_monthly_income_edit">Modifica l’entrata ricorrente</string>
     <string name="title_activity_settings">Impostazioni</string>
-    <string name="title_activity_welcome">EasyBudget</string>
+    <string name="title_activity_welcome">Simple Budget</string>
     <string name="title_activity_premium">Premium</string>
     <string name="title_activity_monthly_report">Rapporto mensile</string>
     <string name="cancel">Annulla</string>
@@ -127,7 +127,7 @@
     <string name="setting_category_rate_button_title">L’app ti piace?</string>
     <string name="setting_category_rate_button_message">Dimmi che ne pensi</string>
     <string name="setting_category_bug_report_send_button_title">Segnala un bug</string>
-    <string name="setting_category_bug_report_send_text">\n\n---\n*Non eliminare questa parte*\nEasyBudget id: %s</string>
+    <string name="setting_category_bug_report_send_text">\n\n---\n*Non eliminare questa parte*\nSimple Budget id: %s</string>
     <string name="setting_category_bug_report_send_error">Impossibile trovare un’app per inviare il rapporto di bug via email</string>
     <string name="setting_category_general_title">Generale</string>
     <string name="setting_category_currency_change_button_title">Cambia la valuta (%s)</string>
@@ -137,7 +137,7 @@
     <string name="setting_category_limit_set_button_message">Cambia il valore di allerta di saldo basso</string>
     <string name="setting_category_app_version_message">Realizzata da @BenoitLetondor</string>
     <string name="setting_category_share_app_title">Condividi con i tuoi amici</string>
-    <string name="setting_category_share_app_message">EasyBudget è gratis! Non c’è motivo di non farla conoscere ai tuoi amici!</string>
+    <string name="setting_category_share_app_message">Simple Budget è gratis! Non c’è motivo di non farla conoscere ai tuoi amici!</string>
     <string name="setting_category_premium_title">Premium</string>
     <string name="setting_category_premium_status_title">Sei… premium!</string>
     <string name="setting_category_premium_status_message">Hai ora accesso alle funzionalità premium</string>
@@ -163,7 +163,7 @@
     <string name="premium_popup_not_premium_feature_more_title">…moltissime altre funzioni che si aggiungeranno poco a poco!</string>
     <string name="premium_popup_not_premium_cta">Acquista</string>
     <string name="premium_popup_become_title">Diventa premium</string>
-    <string name="premium_popup_become_message">Si direbbe che EasyBudget ti piace!\nVuoi passare al livello successivo e scoprire le funzionalità premium?</string>
+    <string name="premium_popup_become_message">Si direbbe che Simple Budget ti piace!\nVuoi passare al livello successivo e scoprire le funzionalità premium?</string>
     <string name="premium_popup_become_cta">Scopri</string>
     <string name="premium_popup_become_not_now">Non ora</string>
     <string name="premium_popup_become_not_ask_again">Non chiedermelo più</string>
@@ -188,7 +188,7 @@
     <string name="voucher_redeem_error_no_internet_dialog_message">Errore di rete. Controlla la tua connessione e prova ancora.</string>
     <string name="voucher_redeem_error_generic_dialog_message">C’è stato un errore, prova di nuovo più tardi.</string>
 
-    <string name="rating_popup_question_title">Cosa pensi di EasyBudget?</string>
+    <string name="rating_popup_question_title">Cosa pensi di Simple Budget?</string>
     <string name="rating_popup_question_message">Lavoro a questa applicazione nel tempo libero e la propongo gratuitamente. Ci sono sicuramente cose da migliorare e la tua opinione conta molto per me! </string>
     <string name="rating_popup_question_cta_negative">Non mi piace</string>
     <string name="rating_popup_question_cta_positive">Mi piace</string>
@@ -204,7 +204,7 @@
     <string name="rating_feedback_send_text"></string>
     <string name="rating_popup_question_cta_dont_ask_again">Non chiedermelo più</string>
 
-    <string name="onboarding_screen_1_title">Benvenuto su EasyBudget</string>
+    <string name="onboarding_screen_1_title">Benvenuto su Simple Budget</string>
     <string name="onboarding_screen_1_message">Il concetto è semplice: Inserisci entrate e uscite ricorrenti e occasionali, e l’app si occupa di monitorare quanto resta sul tuo conto… in qualsiasi momento!\n\nNiente di più semplice!</string>
     <string name="onboarding_screen_1_message2">Pronto?</string>
     <string name="onboarding_screen_1_cta">Sì</string>
@@ -221,12 +221,12 @@
     <string name="onboarding_screen_4_message">(È stato facile, no?)</string>
     <string name="onboarding_screen_4_message2">Quali sono le prossime tappe?</string>
     <string name="onboarding_screen_4_message3">1. Aggiungi le tue entrate e uscite ricorrente (stipendio, affitto, fatture…)\n2. Non dimenticare di aggiungere le entrate e uscite di ogni giorno!</string>
-    <string name="onboarding_screen_4_message4">Grazie di aver scelto EasyBudget, e benvenuto! :)</string>
+    <string name="onboarding_screen_4_message4">Grazie di aver scelto Simple Budget, e benvenuto! :)</string>
     <string name="onboarding_screen_4_cta">Avanti</string>
 
     <string name="app_invite_title">Condividi con i tuoi amici</string>
-    <string name="app_invite_message">Ehy, dovresti provare EasyBudget, un’app semplicissima per gestire il tuo budget!</string> <!-- 100 chars or less -->
-    <string name="app_invite_welcome_title">Benvenuto su EasyBudget</string>
+    <string name="app_invite_message">Ehy, dovresti provare Simple Budget, un’app semplicissima per gestire il tuo budget!</string> <!-- 100 chars or less -->
+    <string name="app_invite_welcome_title">Benvenuto su Simple Budget</string>
     <string name="app_invite_welcome_message">Si direbbe che un buon amico ti ha raccomandato quest’app! Benvenuto! E non dimenticare di ringraziare il tuo amico per l’ottimo consiglio! :)</string>
     <string name="app_invite_welcome_cta">Via!</string>
 

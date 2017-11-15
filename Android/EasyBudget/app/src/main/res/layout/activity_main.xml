@@ -124,7 +124,7 @@
             fab:fab_addButtonColorNormal="@color/primary"
             fab:fab_addButtonColorPressed="@color/primary_dark"
             fab:fab_labelStyle="@style/fab_labels_style"
-            app:layout_behavior="com.benoitletondor.easybudgetapp.view.main.FloatingActionButtonBehavior"
+            app:layout_behavior="com.topratedapps.simplebudgetapp.view.main.FloatingActionButtonBehavior"
             tools:ignore="RtlHardcoded">
 
             <com.getbase.floatingactionbutton.FloatingActionButton

@@ -78,8 +78,6 @@
             android:key="@string/setting_category_notifications_update_key"
             android:enabled="true"/>
 
-        <Preference android:title="@string/setting_category_bug_report_send_button_title"
-            android:key="@string/setting_category_bug_report_send_button_key" />
 
         <Preference android:key="@string/setting_category_app_version_key"
             android:summary="@string/setting_category_app_version_message"/>
