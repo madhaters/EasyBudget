@@ -141,7 +141,7 @@ public class EasyBudget extends Application implements IabBroadcastReceiver.IabB
         }
 
         // Batch
-        setUpBatchSDK();
+        //setUpBatchSDK();
 
         // Analytics
         GoogleAnalytics analytics = GoogleAnalytics.getInstance(this);
@@ -471,65 +471,65 @@ public class EasyBudget extends Application implements IabBroadcastReceiver.IabB
     /**
      * Set-up Batch SDK config + lifecycle
      */
-    private void setUpBatchSDK()
-    {
-        Batch.setConfig(new Config(BuildConfig.BATCH_API_KEY));
-        Batch.Push.setGCMSenderId(BuildConfig.GCM_SENDER_ID);
-        Batch.Push.setManualDisplay(true);
-        Batch.Push.setSmallIconResourceId(R.drawable.ic_push);
-        Batch.Push.setNotificationsColor(ContextCompat.getColor(this, R.color.accent));
-
-        // Remove vibration & sound
-        EnumSet<PushNotificationType> notificationTypes = EnumSet.allOf(PushNotificationType.class);
-        notificationTypes.remove(PushNotificationType.VIBRATE);
-        notificationTypes.remove(PushNotificationType.SOUND);
-        Batch.Push.setNotificationsType(notificationTypes);
-
-        registerActivityLifecycleCallbacks(new ActivityLifecycleCallbacks()
-        {
-            @Override
-            public void onActivityCreated(Activity activity, Bundle savedInstanceState)
-            {
-
-            }
-
-            @Override
-            public void onActivityStarted(final Activity activity)
-            {
-                Batch.onStart(activity);
-            }
-
-            @Override
-            public void onActivityResumed(Activity activity)
-            {
-
-            }
-
-            @Override
-            public void onActivityPaused(Activity activity)
-            {
-
-            }
-
-            @Override
-            public void onActivityStopped(Activity activity)
-            {
-                Batch.onStop(activity);
-            }
-
-            @Override
-            public void onActivitySaveInstanceState(Activity activity, Bundle outState)
-            {
-
-            }
-
-            @Override
-            public void onActivityDestroyed(Activity activity)
-            {
-                Batch.onDestroy(activity);
-            }
-        });
-    }
+//    private void setUpBatchSDK()
+//    {
+//        Batch.setConfig(new Config(BuildConfig.BATCH_API_KEY));
+//        Batch.Push.setGCMSenderId(BuildConfig.GCM_SENDER_ID);
+//        Batch.Push.setManualDisplay(true);
+//        Batch.Push.setSmallIconResourceId(R.drawable.ic_push);
+//        Batch.Push.setNotificationsColor(ContextCompat.getColor(this, R.color.accent));
+//
+//        // Remove vibration & sound
+//        EnumSet<PushNotificationType> notificationTypes = EnumSet.allOf(PushNotificationType.class);
+//        notificationTypes.remove(PushNotificationType.VIBRATE);
+//        notificationTypes.remove(PushNotificationType.SOUND);
+//        Batch.Push.setNotificationsType(notificationTypes);
+//
+//        registerActivityLifecycleCallbacks(new ActivityLifecycleCallbacks()
+//        {
+//            @Override
+//            public void onActivityCreated(Activity activity, Bundle savedInstanceState)
+//            {
+//
+//            }
+//
+//            @Override
+//            public void onActivityStarted(final Activity activity)
+//            {
+//                Batch.onStart(activity);
+//            }
+//
+//            @Override
+//            public void onActivityResumed(Activity activity)
+//            {
+//
+//            }
+//
+//            @Override
+//            public void onActivityPaused(Activity activity)
+//            {
+//
+//            }
+//
+//            @Override
+//            public void onActivityStopped(Activity activity)
+//            {
+//                Batch.onStop(activity);
+//            }
+//
+//            @Override
+//            public void onActivitySaveInstanceState(Activity activity, Bundle outState)
+//            {
+//
+//            }
+//
+//            @Override
+//            public void onActivityDestroyed(Activity activity)
+//            {
+//                Batch.onDestroy(activity);
+//            }
+//        });
+//    }
 
     /**
      * Check if a an update occured and call {@link #onUpdate(int, int)} if so
@@ -672,8 +672,8 @@ public class EasyBudget extends Application implements IabBroadcastReceiver.IabB
         try
         {
             setIabStatusAndNotify(PremiumCheckStatus.INITIALIZING);
-
-            iabHelper = new IabHelper(this, BuildConfig.LICENCE_KEY);
+            String li="MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApPAaEkN49mi+cg7dl8xezfvOuJk9VX6Dj/aQSS4dnsX3Ph1uyz8d0vXVpy47xl5gvs/qmxbR2mQC4XohXKPdMmGmmvyGYsqONXUUFdfDfcSh0evjdMEEQnRZsWZZQ4NZ4lBudMnP2U5FZyfNgqSLdBcwU1HqK3fmOcoXe+oaDKwFFKXi9DWs9EUwWYqhW3I5q15HiorzFcvA0ERJ9jxI9M276njPtkcMatL+h5klCFoi+kxKmoYKQtmEpHirHJuKGtRqIiqZeqEaw+AUTkYSjQ5Z1MNkJGWEqQOcyhJ1D81/gVczvP1Y/fxwlht1R4AI00OB7PzPsOGG6jycbeoVsQIDAQAB";
+            iabHelper = new IabHelper(this, li);
             iabHelper.enableDebugLogging(BuildConfig.DEBUG_LOG);
 
             inventoryListener = new IabHelper.QueryInventoryFinishedListener()
